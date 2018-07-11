@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="theme-five">
     <v-content dark color="primary">
 
       <section>
@@ -38,5 +38,7 @@ export default {
 </script>
 
 <style scoped>
+.theme-five{
 
+}
 </style>

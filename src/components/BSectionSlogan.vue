@@ -1,5 +1,5 @@
 <template>
-  <div class="theme-one" >
+  <div class="theme-two" >
     <v-content class="container" dark color="primary">
       <!-- <section>
         <v-parallax src="@/assets/hero.jpeg" height="600">
@@ -18,12 +18,11 @@
       <section>
         <v-layout
           column
-          wrap
           class="my-5"
           align-center
         >
           <v-flex class="my-3" xs12 sm4>
-            <div class="sobre-nosotros">
+            <div class="text-md-center font-weight-thin subheader-theme">
               DICEL tiene una permanente actitud enfocada en el respeto y responsabilidad
               en cuanto a las demandas de nuestros clientes internos y externos.
               Innovamos para mejorar nuestro servicio.
@@ -49,12 +48,8 @@ export default {
 </script>
 
 <style scoped>
-.theme-one{
+.theme-two{
   background-color: #90A4AE;
 }
 
-.sobre-nosotros{
-  font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
-  font-size: 1.9em;
-}
 </style>

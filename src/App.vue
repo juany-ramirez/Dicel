@@ -3,7 +3,6 @@
     <v-app color="secondary" dark id="inspire">
       <v-navigation-drawer
         clipped
-        fixed
         v-model="drawer"
         color="secondary"
         right app>
@@ -71,3 +70,22 @@ export default {
   },
 };
 </script>
+
+<style>
+.headline-theme{
+  color: #fff;
+  background-color: #C62828;
+  padding: 18px;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+.subheader-theme{
+  padding: 18px;
+  font-size: 1.875em;
+  letter-spacing: 8px;
+  color: #fff;
+}
+
+</style>
+
