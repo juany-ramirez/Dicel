@@ -5,10 +5,13 @@
     </section>
     <section>
       <v-content dark color="primary">
-        <v-layout column align-center justify-center>
-          <div class="headline-theme white--text mb-3 text-xs-center">
+        <div class="text-xs-center">
+          <span class="headline-theme white--text mb-3">
             Servicios
-          </div>
+          </span>
+        </div>
+        <v-layout row align-center justify-center>
+
         </v-layout>
       </v-content>
     </section>

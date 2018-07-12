@@ -37,8 +37,13 @@ export default {
 .slogan {
   color: #fff;
   padding: 18px;
-  font-size: 30px;
+  font-size: 28px;
   letter-spacing: 10px;
+}
+@media only screen and (max-device-width: 1024px) {
+  .slogan{
+    font-size: 3vw;
+  }
 }
 .caption {
   position: absolute;
@@ -51,7 +56,6 @@ export default {
 .box {
   height: 95vh;
 }
-/* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1,
   .bgimg-2,
