@@ -1,8 +1,12 @@
 <template>
-  <div>
-    <v-content dark color="primary">
-
-    </v-content>
+  <div class="theme-six">
+    <v-carousel hide-delimiters>
+      <v-carousel-item
+        v-for="(item,i) in items"
+        :key="i"
+        :src="item.src"
+      ></v-carousel-item>
+    </v-carousel>
   </div>
 </template>
 
@@ -13,9 +17,30 @@ export default {
   props: {
     id: String,
   },
+  data() {
+    return {
+      items:
+      [
+        {
+          src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+        },
+        {
+          src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+        },
+        {
+          src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+        },
+        {
+          src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+        },
+      ],
+    };
+  },
 };
 </script>
 
 <style scoped>
-
+.theme-six{
+  background-color: #263238;
+}
 </style>

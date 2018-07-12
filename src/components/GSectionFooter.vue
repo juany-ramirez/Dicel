@@ -5,7 +5,7 @@
         <v-layout row>
           <v-flex xs12 >
             <v-card dark tile flat color="secondary">
-                <v-card-title primary-title>
+                <v-card-title primary-title >
                 <div class="headline">Informacion General</div>
               </v-card-title>
             </v-card>
@@ -30,7 +30,7 @@
                 </v-list-tile>
                 <v-list-tile>
                   <v-list-tile-action>
-                    <v-icon class="blue--text text--lighten-2">email</v-icon>
+                    <v-icon class="blue--text text--lighten-2">query_builder</v-icon>
                   </v-list-tile-action>
                   <v-list-tile-content>
                     <v-list-tile-title>
@@ -85,5 +85,7 @@ export default {
 </script>
 
 <style scoped>
-
+.headline, .transparent{
+  padding-left: 5rem;
+}
 </style>

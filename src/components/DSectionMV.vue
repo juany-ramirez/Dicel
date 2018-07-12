@@ -17,12 +17,14 @@
                       <v-icon x-large color="accent">flash_on</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline">Mision</div>
+                      <div class="header-theme">Misión</div>
                     </v-card-title>
                     <v-card-text>
-                      Ofrecer soluciones a nuestros clientes proporcionando servicios
-                      en energía eléctrica; garantizando la seguridad
-                      y calidad de nuestro trabajo basados en las normas eléctricas.
+                      <p class="content-group">
+                        Ofrecer soluciones a nuestros clientes proporcionando servicios
+                        en energía eléctrica; garantizando la seguridad
+                        y calidad de nuestro trabajo basados en las normas eléctricas.
+                      </p>
                     </v-card-text>
                   </v-card>
                 </v-flex>
@@ -32,12 +34,14 @@
                       <v-icon x-large color="accent">build</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline text-xs-center">Vision</div>
+                      <div class="header-theme text-xs-center">Visión</div>
                     </v-card-title>
                     <v-card-text>
-                      Ser la empresa líder en la región, en servicios y proyectos
-                      de energía eléctrica, ofreciendo a nuestros
-                      clientes obras con calidad integral.
+                      <p class="content-group">
+                        Ser la empresa líder en la región, en servicios y proyectos
+                        de energía eléctrica, ofreciendo a nuestros
+                        clientes obras con calidad integral.
+                      </p>
                       <br>
                     </v-card-text>
                   </v-card>
@@ -48,6 +52,9 @@
         </v-layout>
       </section>
     </v-content>
+    <section>
+      <div class="diagonal-divider"></div>
+    </section>
   </div>
 </template>
 
@@ -65,5 +72,8 @@ export default {
 .theme-four{
   background-color: #37474F;
 }
-
+.content-group{
+  padding: 1.4em;
+  font-size: 1.1em;
+}
 </style>

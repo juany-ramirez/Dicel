@@ -1,20 +1,6 @@
 <template>
   <div class="theme-two" >
     <v-content class="container" dark color="primary">
-      <!-- <section>
-        <v-parallax src="@/assets/hero.jpeg" height="600">
-          <v-layout
-            column
-            align-center
-            justify-center
-            class="white--text">
-            <img src="@/assets/vuetify.png" alt="Vuetify.js" height="200">
-            <h1 class="white--text mb-2 display-1 text-xs-center">DICEL</h1>
-            <div class="subheading mb-3 text-xs-center">Diseños y Construcciones Eléctricas</div>
-          </v-layout>
-        </v-parallax>
-      </section> -->
-
       <section>
         <v-layout
           column
@@ -32,7 +18,6 @@
           </v-flex>
         </v-layout>
       </section>
-
     </v-content>
   </div>
 </template>

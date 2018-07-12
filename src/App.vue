@@ -79,12 +79,28 @@ export default {
   font-size: 50px;
   letter-spacing: 10px;
 }
-
 .subheader-theme{
   padding: 18px;
   font-size: 1.875em;
   letter-spacing: 8px;
   color: #fff;
+}
+.header-theme{
+  color: #fff;
+  font-size: 50px;
+  letter-spacing: 10px;
+  border-bottom: 10px solid #C62828;
+  padding-bottom: 0.25em;
+}
+.diagonal-divider-one {
+  background:#263238;
+  background: linear-gradient(to right bottom, #37474F 50%, #263238 50%);
+  height: 20em;
+}
+.diagonal-divider-two {
+  background:#263238;
+  background: linear-gradient(to right bottom, #263238 50%, #90A4AE 50%);
+  height: 20em;
 }
 
 </style>

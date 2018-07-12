@@ -10,7 +10,6 @@
         </div>
       </div>
     </div>
-    <div class="parallax"></div>
   </div>
 </template>
 
@@ -24,7 +23,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .bgimg-1 {
   background-image: url("../assets/architecture-building.jpg");
@@ -36,15 +34,12 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
 .slogan {
   color: #fff;
   padding: 18px;
   font-size: 30px;
   letter-spacing: 10px;
 }
-
 .caption {
   position: absolute;
   left: 0;
@@ -53,11 +48,9 @@ export default {
   text-align: center;
   color: #000;
 }
-
 .box {
   height: 95vh;
 }
-
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1,

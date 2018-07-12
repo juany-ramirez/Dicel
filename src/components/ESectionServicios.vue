@@ -1,29 +1,20 @@
 <template>
   <div class="theme-five">
-    <v-content dark color="primary">
-
-      <section>
-          <v-layout column align-center justify-center>
-            <div class="headline white--text mb-3 text-xs-center">
-              Servicios
-            </div>
-          </v-layout>
-          <v-jumbotron
-            :gradient="gradient"
-            dark
-            src="https://cdn.vuetifyjs.com/images/parallax/material2.jpg"
-          >
-            <v-container fill-height>
-              <v-layout align-center>
-                <v-flex text-xs-center>
-                  <h3 class="display-3">Gradient over Image</h3>
-                </v-flex>
-              </v-layout>
-            </v-container>
-          </v-jumbotron>
-      </section>
-
-    </v-content>
+    <section>
+      <div class="diagonal-divider-one"></div>
+    </section>
+    <section>
+      <v-content dark color="primary">
+        <v-layout column align-center justify-center>
+          <div class="headline-theme white--text mb-3 text-xs-center">
+            Servicios
+          </div>
+        </v-layout>
+      </v-content>
+    </section>
+    <section>
+      <div class="diagonal-divider-two"></div>
+    </section>
   </div>
 </template>
 
@@ -39,6 +30,6 @@ export default {
 
 <style scoped>
 .theme-five{
-
+  background-color: #263238;
 }
 </style>
