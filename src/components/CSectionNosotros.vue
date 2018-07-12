@@ -11,25 +11,27 @@
               <div>
                 <v-card class="elevation-0 transparent">
                   <v-card-title primary-title class="layout justify-center">
-                    <span >
-                      <div class="headline-theme">¿Quiénes Somos?</div>
-                    </span>
+                    <div>
+                      <span class="headline-theme white--text mb-3">
+                        ¿Quiénes Somos?
+                      </span>
+                    </div>
                   </v-card-title>
                   <v-card-text>
-                  <div class="sobre-nosotros">
-                      DICEL es una empresa de ingeniería de diseño y construcción en
-                      la rama de ingeniería electromecánica, comprometidos con el
-                      bienestar de nuestros clientes, personal y comunidad; para
-                      lo cual trabajamos bajo principios de calidad, seguridad y beneficio mutuo.
-                      Procuramos maximizar la inversión de nuestros clientes
-                      con los mejores técnicos de la región; cuidamos la seguridad de
-                      nuestro personal y respetamos el entorno natural de la comunidad.
-                      Las principales líneas de negocio son construcción de
-                      redes eléctricas ern media tensión aéreas y subterráneas,
-                      instalaciones eléctricas comerciales e industriales,
-                      infraestructura y vivienda; con clientes
-                      tanto en el sector público como en el sector privado.
-                  </div>
+                    <div class="sobre-nosotros">
+                        DICEL es una empresa de ingeniería de diseño y construcción en
+                        la rama de ingeniería electromecánica, comprometidos con el
+                        bienestar de nuestros clientes, personal y comunidad; para
+                        lo cual trabajamos bajo principios de calidad, seguridad y beneficio mutuo.
+                        Procuramos maximizar la inversión de nuestros clientes
+                        con los mejores técnicos de la región; cuidamos la seguridad de
+                        nuestro personal y respetamos el entorno natural de la comunidad.
+                        Las principales líneas de negocio son construcción de
+                        redes eléctricas ern media tensión aéreas y subterráneas,
+                        instalaciones eléctricas comerciales e industriales,
+                        infraestructura y vivienda; con clientes
+                        tanto en el sector público como en el sector privado.
+                    </div>
                   </v-card-text>
                 </v-card>
               </div>
@@ -59,6 +61,11 @@ export default {
 <style scoped>
 .theme-three{
   background-color: #EDF0F2;
+}
+
+.headline-theme{
+  background-color: #C62828;
+  width: auto;
 }
 
 .box {

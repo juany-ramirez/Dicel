@@ -7,7 +7,7 @@
               <v-flex xs12 >
                 <v-card dark tile flat color="secondary">
                     <v-card-title primary-title >
-                    <div class="header-theme">Informacion General</div>
+                    <div class="header-theme">Información General</div>
                   </v-card-title>
                 </v-card>
               </v-flex>
