@@ -1,48 +1,48 @@
 <template>
   <div class="theme-three">
-    <v-content light color="primary">
-      <section>
-          <v-layout
-            row
-            wrap
-            align-center
-          >
-            <v-flex xs12 md4 offset-xs0 offset-md2>
-              <v-container>
-                <div class="theme-content">
-                  <v-card class="elevation-0 transparent">
-                    <v-card-title primary-title class="layout justify-center">
+    <section>
+        <v-layout
+          row
+          wrap
+          align-center
+        >
+          <v-flex xs12 md4 offset-xs0 offset-md2>
+            <v-content>
+              <div>
+                <v-card class="elevation-0 transparent">
+                  <v-card-title primary-title class="layout justify-center">
+                    <span >
                       <div class="headline-theme">¿Quiénes Somos?</div>
-                    </v-card-title>
-                    <v-card-text>
-                    <div class="sobre-nosotros">
-                        DICEL es una empresa de ingeniería de diseño y construcción en
-                        la rama de ingeniería electromecánica, comprometidos con el
-                        bienestar de nuestros clientes, personal y comunidad; para
-                        lo cual trabajamos bajo principios de calidad, seguridad y beneficio mutuo.
-                        Procuramos maximizar la inversión de nuestros clientes
-                        con los mejores técnicos de la región; cuidamos la seguridad de
-                        nuestro personal y respetamos el entorno natural de la comunidad.
-                        Las principales líneas de negocio son construcción de
-                        redes eléctricas ern media tensión aéreas y subterráneas,
-                        instalaciones eléctricas comerciales e industriales,
-                        infraestructura y vivienda; con clientes
-                        tanto en el sector público como en el sector privado.
-                    </div>
-                    </v-card-text>
-                  </v-card>
-                </div>
-              </v-container>
-            </v-flex>
-            <v-flex xs12 md6>
-              <div class="box">
-                <div class="parallax">
-                </div>
+                    </span>
+                  </v-card-title>
+                  <v-card-text>
+                  <div class="sobre-nosotros">
+                      DICEL es una empresa de ingeniería de diseño y construcción en
+                      la rama de ingeniería electromecánica, comprometidos con el
+                      bienestar de nuestros clientes, personal y comunidad; para
+                      lo cual trabajamos bajo principios de calidad, seguridad y beneficio mutuo.
+                      Procuramos maximizar la inversión de nuestros clientes
+                      con los mejores técnicos de la región; cuidamos la seguridad de
+                      nuestro personal y respetamos el entorno natural de la comunidad.
+                      Las principales líneas de negocio son construcción de
+                      redes eléctricas ern media tensión aéreas y subterráneas,
+                      instalaciones eléctricas comerciales e industriales,
+                      infraestructura y vivienda; con clientes
+                      tanto en el sector público como en el sector privado.
+                  </div>
+                  </v-card-text>
+                </v-card>
               </div>
-            </v-flex>
-          </v-layout>
-      </section>
-    </v-content>
+            </v-content>
+          </v-flex>
+          <v-flex xs12 md6>
+            <div class="box">
+              <div class="parallax">
+              </div>
+            </div>
+          </v-flex>
+        </v-layout>
+    </section>
   </div>
 </template>
 
@@ -63,13 +63,13 @@ export default {
 
 .box {
   height: 95vh;
+  background-color: black;
 }
 
 .parallax {
-  background-image: url("../assets/architecture-building.jpg");
+  background-image: url("../assets/dusk-electric.jpg");
   min-height: 100%;
   opacity: .85;
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
