@@ -7,7 +7,8 @@
       <DSectionMV id="MV"/>
       <ESectionServicios id="Servicios"/>
       <FSectionClientes id="Clientes"/>
-      <GSectionFooter id="Footer"/>
+      <GSectionContacto id="Contacto"/>
+      <HSectionFooter id="Footer"/>
     </v-app>
   </div>
 </template>
@@ -20,7 +21,8 @@ import CSectionNosotros from '@/components/CSectionNosotros.vue';
 import DSectionMV from '@/components/DSectionMV.vue';
 import ESectionServicios from '@/components/ESectionServicios.vue';
 import FSectionClientes from '@/components/FSectionClientes.vue';
-import GSectionFooter from '@/components/GSectionFooter.vue';
+import GSectionContacto from '@/components/GSectionContacto.vue';
+import HSectionFooter from '@/components/HSectionFooter.vue';
 
 export default {
   name: 'home',
@@ -31,7 +33,8 @@ export default {
     DSectionMV,
     ESectionServicios,
     FSectionClientes,
-    GSectionFooter,
+    GSectionContacto,
+    HSectionFooter,
   },
 };
 </script>

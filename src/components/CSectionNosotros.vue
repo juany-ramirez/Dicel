@@ -11,10 +11,10 @@
               <div>
                 <v-card class="elevation-0 transparent">
                   <v-card-title primary-title class="layout justify-center">
-                    <div>
-                      <span class="headline-theme white--text mb-3">
+                    <div class="text-lg-left">
+                      <div class="headline-theme white--text pr-5">
                         ¿Quiénes Somos?
-                      </span>
+                      </div>
                     </div>
                   </v-card-title>
                   <v-card-text>
@@ -59,10 +59,6 @@ export default {
 </script>
 
 <style scoped>
-.theme-three{
-  background-color: #EDF0F2;
-}
-
 .headline-theme{
   background-color: #C62828;
   width: auto;

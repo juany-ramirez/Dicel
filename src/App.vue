@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="webpage">
     <v-app color="secondary" dark id="inspire">
       <v-navigation-drawer
         clipped
@@ -72,6 +72,21 @@ export default {
 </script>
 
 <style>
+.theme-two{
+  background-color: #90A4AE;
+}
+.theme-three{
+  background-color: #EDF0F2;
+}
+.theme-four{
+  background-color: #37474F;
+}
+.theme-five{
+  background-color: #263238;
+}
+.theme-six{
+  background-color: #C62828;
+}
 .headline-theme{
   color: #fff;
   background-color: #C62828;

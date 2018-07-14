@@ -33,8 +33,4 @@ export default {
 </script>
 
 <style scoped>
-.theme-two{
-  background-color: #90A4AE;
-}
-
 </style>

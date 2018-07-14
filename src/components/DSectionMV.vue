@@ -69,9 +69,6 @@ export default {
 </script>
 
 <style scoped>
-.theme-four{
-  background-color: #37474F;
-}
 .content-group{
   padding: 1.4em;
   font-size: 1.1em;

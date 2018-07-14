@@ -151,9 +151,6 @@ export default {
 </script>
 
 <style scoped>
-.theme-five{
-  background-color: #263238;
-}
 div.theme-five-header{
   font-size: 20px;
   padding: 18px;
