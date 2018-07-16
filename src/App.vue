@@ -4,8 +4,11 @@
       <v-navigation-drawer
         clipped
         v-model="drawer"
-        color="secondary"
-        right app>
+        class="blue-grey lighten-2"
+        dark
+        right
+        mobile-break-point800
+        app>
         <v-list dense>
           <v-list-tile>
             <v-list-tile-action>
@@ -13,7 +16,7 @@
             </v-list-tile-action>
             <v-list-tile-content>
               <v-list-tile-title>
-                <router-link class="white--text" to="/">Home</router-link>
+                <router-link class="white--text" to="/">Nosotros</router-link>
               </v-list-tile-title>
             </v-list-tile-content>
           </v-list-tile>
@@ -23,7 +26,17 @@
             </v-list-tile-action>
             <v-list-tile-content>
               <v-list-tile-title >
-                <router-link class="white--text" to="/about">About</router-link>
+                <router-link class="white--text" to="/about">Servicios</router-link>
+              </v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
+          <v-list-tile>
+            <v-list-tile-action>
+              <v-icon>email</v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>
+              <v-list-tile-title >
+                <router-link class="white--text" to="/about">Contáctanos</router-link>
               </v-list-tile-title>
             </v-list-tile-content>
           </v-list-tile>
@@ -47,7 +60,7 @@
             </v-btn>
             <v-divider vertical></v-divider>
             <v-btn @click="$vuetify.goTo('GSectionContacto', { offset: -100 })" flat>
-              Contactanos
+              Contáctanos
             </v-btn>
             <v-divider vertical></v-divider>
           </v-toolbar-items>

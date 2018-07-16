@@ -12,8 +12,8 @@
       lazy
       elevation-0
       delimiter-icon="flash_on">
-      <v-carousel-item v-for="(item, index) in items" :key="index">
-        <v-container class="text-lg-center">
+      <v-carousel-item class="text-lg-center" v-for="(item, index) in items" :key="index">
+        <v-container>
           <v-content>
           <span class="header-theme white--text mb-3">
             {{item.title}}

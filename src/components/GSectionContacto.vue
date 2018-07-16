@@ -92,13 +92,13 @@ export default {
   color: white;
   clear: left;
   font: 14px Helvetica, Arial, sans-serif;
-  filter: alpha(opacity=75);
+  filter: alpha(opacity=80);
   /* Modern Browsers */
-  opacity: 0.75;
+  opacity: 0.80;
   border-radius: 10px;
 }
 .bg-image {
-  background:url("../assets/charge-lightning.jpg") top right no-repeat;
+  background:url("../assets/brick-brickwall.jpg") top right no-repeat;
   background-attachment:fixed;
   background-size: cover;
 }

@@ -65,12 +65,12 @@ export default {
 }
 
 .box {
-  height: 95vh;
+  height: 100vh;
   background-color: black;
 }
 
 .parallax {
-  background-image: url("../assets/dusk-electric.jpg");
+  background: url("../assets/analysis-blackboard.jpg");
   min-height: 100%;
   opacity: .85;
   background-position: center;
