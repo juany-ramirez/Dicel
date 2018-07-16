@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="home">
     <v-app color="primary" dark>
       <ASectionView id="View"/>
       <BSectionSlogan id="Slogan"/>
@@ -36,6 +36,7 @@ export default {
     GSectionContacto,
     HSectionFooter,
   },
+  props: ['scroll'],
 };
 </script>
 

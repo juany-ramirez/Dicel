@@ -75,7 +75,7 @@
 <script>
 
 export default {
-  name: 'GSectionFooter',
+  name: 'HSectionFooter',
   props: {
     id: String,
   },

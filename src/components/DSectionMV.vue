@@ -14,7 +14,7 @@
                 <v-flex xs12 md6 >
                   <v-card class="elevation-0 transparent" dark color="secondary" >
                     <v-card-text class="text-xs-center">
-                      <v-icon x-large color="accent">flash_on</v-icon>
+                      <v-icon x-large color="accent">lightbulb_outline</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
                       <div class="header-theme">Misión</div>
@@ -31,7 +31,7 @@
                 <v-flex xs12 md6>
                   <v-card class="elevation-0 transparent" dark color="secondary" >
                     <v-card-text class="text-xs-center" >
-                      <v-icon x-large color="accent">build</v-icon>
+                      <v-icon x-large color="accent">visibility</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
                       <div class="header-theme text-xs-center">Visión</div>

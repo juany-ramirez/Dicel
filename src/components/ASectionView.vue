@@ -57,9 +57,7 @@ export default {
   height: 95vh;
 }
 @media only screen and (max-device-width: 1024px) {
-  .bgimg-1,
-  .bgimg-2,
-  .bgimg-3 {
+  .bgimg-1{
     background-attachment: scroll;
   }
 }

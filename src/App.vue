@@ -38,16 +38,15 @@
           ></v-divider>
           <v-spacer></v-spacer>
           <v-toolbar-items>
-            <v-btn flat>
+            <v-btn @click="$vuetify.goTo('#first', { offset: -100 })" flat>
               Nosotros
-              <v-icon right dark>cloud_upload</v-icon>
             </v-btn>
             <v-divider vertical></v-divider>
             <v-btn flat>
               Servicios
             </v-btn>
             <v-divider vertical></v-divider>
-            <v-btn flat>
+            <v-btn @click="$vuetify.goTo('GSectionContacto', { offset: -100 })" flat>
               Contactanos
             </v-btn>
             <v-divider vertical></v-divider>
@@ -60,13 +59,14 @@
 </template>
 
 <script>
-
 export default {
   name: 'App',
   data() {
     return {
       drawer: true,
     };
+  },
+  methods: {
   },
 };
 </script>
