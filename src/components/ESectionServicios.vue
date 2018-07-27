@@ -1,5 +1,5 @@
 <template>
-  <div class="theme-five">
+  <div class="theme-three">
     <section>
       <div class="diagonal-divider-one"></div>
     </section>
@@ -155,12 +155,13 @@ div.theme-five-header{
   font-size: 20px;
   padding: 18px;
   letter-spacing: 4px;
-  color: #fff;
+  color: black;
   width:100%;
 }
 .theme-five-subheader{
   letter-spacing: 4px;
   font-weight: bold;
+  color: #263238;
   border-bottom: 2px solid #C62828;
   width:100%;
 }

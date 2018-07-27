@@ -43,7 +43,10 @@
         </v-list>
       </v-navigation-drawer>
       <v-toolbar app fixed clipped-left color="primary">
-        <v-toolbar-title>Dicel</v-toolbar-title>
+        <a >
+          <img src="./assets/dicelPro-02.png" height="56px;" width="38px;">
+        </a>
+        <v-toolbar-title class="nav-title">DICEL</v-toolbar-title>
           <v-divider
             class="mx-3"
             inset
@@ -85,6 +88,11 @@ export default {
 </script>
 
 <style>
+.logo{
+  background-image: url("./assets/dicelPro-02.png");
+  height: 38px;
+  width: 38px;
+}
 .theme-two{
   background-color: #90A4AE;
 }
@@ -99,6 +107,10 @@ export default {
 }
 .theme-six{
   background-color: #C62828;
+}
+.nav-title{
+  font-size: 25px;
+  letter-spacing: 5px;
 }
 .headline-theme{
   color: #fff;
@@ -121,13 +133,13 @@ export default {
   padding-bottom: 0.25em;
 }
 .diagonal-divider-one {
-  background:#263238;
-  background: linear-gradient(to right bottom, #37474F 50%, #263238 50%);
+  background:#EDF0F2;
+  background: linear-gradient(to right bottom, #37474F 50%, #EDF0F2 50%);
   height: 20em;
 }
 .diagonal-divider-two {
-  background:#263238;
-  background: linear-gradient(to right bottom, #263238 50%, #90A4AE 50%);
+  background:#EDF0F2;
+  background: linear-gradient(to right bottom, #EDF0F2 50%, #90A4AE 50%);
   height: 20em;
 }
 

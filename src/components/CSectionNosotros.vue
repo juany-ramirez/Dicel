@@ -1,5 +1,5 @@
 <template>
-  <div class="theme-three">
+  <div class="theme-five">
     <section>
         <v-layout
           row
@@ -81,7 +81,7 @@ export default {
 
 .sobre-nosotros{
   line-height: 2;
-  color: #263238;
+  color: #EDF0F2;
 }
 
 .theme-content{
