@@ -2,7 +2,8 @@
   <div class="theme-one">
     <div class="box">
       <div class="bgimg-1">
-        <div class="caption">
+        <div class="caption text-md-center">
+          <img src="../assets/dicelPro-03.png" height="180px;" width="120px;"><br><br>
           <span class="headline-theme">
             DICEL
           </span>
@@ -47,8 +48,7 @@ export default {
 }
 .caption {
   position: absolute;
-  left: 0;
-  top: 50%;
+  top: 15vh;
   width: 100%;
   text-align: center;
   color: #000;

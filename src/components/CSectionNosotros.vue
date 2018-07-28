@@ -6,7 +6,7 @@
           wrap
           align-center
         >
-          <v-flex xs12 md4 offset-xs0 offset-md2>
+          <v-flex xs12 md4 offset-xs0 offset-md1>
             <v-content>
               <div>
                 <v-card class="elevation-0 transparent">
@@ -18,7 +18,7 @@
                     </div>
                   </v-card-title>
                   <v-card-text>
-                    <div class="sobre-nosotros">
+                    <div class="sobre-nosotros font-weight-light">
                         DICEL es una empresa de ingeniería de diseño y construcción en
                         la rama de ingeniería electromecánica, comprometidos con el
                         bienestar de nuestros clientes, personal y comunidad; para
@@ -37,7 +37,7 @@
               </div>
             </v-content>
           </v-flex>
-          <v-flex xs12 md6>
+          <v-flex xs12 offset-md1 md6>
             <div class="box">
               <div class="parallax">
               </div>
@@ -80,7 +80,8 @@ export default {
 
 
 .sobre-nosotros{
-  line-height: 2;
+  line-height: 1.7;
+  font-size: 17px;
   color: #EDF0F2;
 }
 

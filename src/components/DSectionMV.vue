@@ -20,7 +20,7 @@
                       <div class="header-theme">Misión</div>
                     </v-card-title>
                     <v-card-text>
-                      <p class="content-group">
+                      <p class="content-group font-weight-light">
                         Ofrecer soluciones a nuestros clientes proporcionando servicios
                         en energía eléctrica; garantizando la seguridad
                         y calidad de nuestro trabajo basados en las normas eléctricas.
@@ -37,7 +37,7 @@
                       <div class="header-theme text-xs-center">Visión</div>
                     </v-card-title>
                     <v-card-text>
-                      <p class="content-group">
+                      <p class="content-group font-weight-light">
                         Ser la empresa líder en la región, en servicios y proyectos
                         de energía eléctrica, ofreciendo a nuestros
                         clientes obras con calidad integral.
@@ -71,6 +71,7 @@ export default {
 <style scoped>
 .content-group{
   padding: 1.4em;
-  font-size: 1.1em;
+  line-height: 1.7;
+  font-size: 17px;
 }
 </style>

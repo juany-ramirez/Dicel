@@ -14,40 +14,48 @@
                   class="validate"
                   target="_blank"
                   novalidate>
-                  <div id="mc_embed_signup_scroll">
-                    <h2>Subscribe to our mailing list</h2>
-                  <div class="indicates-required">
-                    <span class="asterisk">*</span>
-                    indicates required
-                  </div>
-                  <div class="mc-field-group">
-                    <label for="mce-EMAIL">
-                      Correo Electrónico
-                      <span class="asterisk">*</span>
-                    </label>
-                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                  </div>
-                  <div class="mc-field-group">
-                    <label for="mce-FNAME">
-                      Nombre Completo
-                      <span class="asterisk">*</span>
-                    </label>
-                    <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
-                  </div>
-                  <div class="mc-field-group size1of2">
-                    <label for="mce-PHONE">
-                      Teléfono
-                    </label>
-                    <input type="text" name="PHONE" class="" value="" id="mce-PHONE">
-                  </div>
-                  <div class="mc-field-group">
-                    <label for="mce-MMERGE2">Mensaje </label>
-                    <input type="text" value="" name="MMERGE2" class="" id="mce-MMERGE2">
-                  </div>
-                    <div id="mce-responses" class="clear">
-                      <div class="response" id="mce-error-response" style="display:none"></div>
-                      <div class="response" id="mce-success-response" style="display:none"></div>
-                    </div>
+                    <div  id="mc_embed_signup_scroll">
+                      <div class="text-xs-center" >
+                        <img src="../assets/dicelPro-04.png" height="150px;" width="100px;">
+                        <h2>Conéctate con Nosotros</h2>
+                      </div>
+                      <div class="indicates-required">
+                        <span class="asterisk">*</span>
+                        indica obligatorio
+                      </div>
+                      <div class="mc-field-group">
+                        <label for="mce-EMAIL">
+                          Correo Electrónico
+                          <span class="asterisk">*</span>
+                        </label>
+                        <input
+                          type="email"
+                          value=""
+                          name="EMAIL"
+                          class="required email"
+                          id="mce-EMAIL">
+                      </div>
+                      <div class="mc-field-group">
+                        <label for="mce-FNAME">
+                          Nombre Completo
+                          <span class="asterisk">*</span>
+                        </label>
+                        <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+                      </div>
+                      <div class="mc-field-group size1of2">
+                        <label for="mce-PHONE">
+                          Teléfono
+                        </label>
+                        <input type="text" name="PHONE" class="" value="" id="mce-PHONE">
+                      </div>
+                      <div class="mc-field-group">
+                        <label for="mce-MMERGE2">Mensaje </label>
+                        <input type="text" value="" name="MMERGE2" class="" id="mce-MMERGE2">
+                      </div>
+                      <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                      </div>
                       <div style="position: absolute; left: -5000px;" aria-hidden="true">
                         <input
                         type="text"
@@ -58,7 +66,7 @@
                       <div class="clear">
                         <input
                         type="submit"
-                        value="Subscribe"
+                        value="Contactarme"
                         name="subscribe"
                         id="mc-embedded-subscribe"
                         class="button">
@@ -89,13 +97,13 @@ export default {
   background-color: #C62828 important!;
 }
 #mc_embed_signup {
-  background: #101518;
+  background: #263238;
   color: white;
   clear: left;
   font: 14px Helvetica, Arial, sans-serif;
   filter: alpha(opacity=80);
   /* Modern Browsers */
-  opacity: 0.80;
+  opacity: 0.88;
   border-radius: 10px;
 }
 .bg-image {

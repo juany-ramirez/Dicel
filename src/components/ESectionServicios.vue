@@ -6,6 +6,7 @@
     <section>
       <v-content dark color="primary">
         <div class="text-xs-center">
+          <img src="../assets/dicelPro-01.png" height="150px;" width="100px;"><br>
           <span class="headline-theme white--text mb-3">
             Servicios
           </span>
@@ -20,7 +21,7 @@
                 </v-card-text>
                 <v-card-title primary-title>
                   <div class="theme-five-subheader text-xs-center"> Diseño y Contrucción</div>
-                  <div class="theme-five-header font-weight-thin text-xs-center">
+                  <div class="theme-five-header font-weight-light text-xs-center">
                     Líneas de transmisión.
                   </div>
                 </v-card-title>
@@ -33,7 +34,7 @@
                 </v-card-text>
                 <v-card-title primary-title>
                   <div class="theme-five-subheader text-xs-center"> Diseño y Contrucción</div>
-                  <div class="theme-five-header font-weight-thin text-xs-center">
+                  <div class="theme-five-header font-weight-light text-xs-center">
                     Redes primarias
                     <br>-Aéreas
                     <br>-Subterráneas
@@ -48,7 +49,7 @@
                 </v-card-text>
                 <v-card-title primary-title>
                   <div class="theme-five-subheader text-xs-center"> Diseño y Contrucción</div>
-                  <div class="theme-five-header font-weight-thin text-xs-center">
+                  <div class="theme-five-header font-weight-light text-xs-center">
                     Sistema de generación de
                     <br>-Energía Solar
                   </div>
@@ -62,7 +63,7 @@
                 </v-card-text>
                 <v-card-title primary-title>
                   <div class="theme-five-subheader text-xs-center">Contrucción</div>
-                  <div class="theme-five-header font-weight-thin text-xs-center">
+                  <div class="theme-five-header font-weight-light text-xs-center">
                     Obras civiles.
                   </div>
                 </v-card-title>
@@ -75,7 +76,7 @@
                 </v-card-text>
                 <v-card-title primary-title>
                   <div class="theme-five-subheader text-xs-center"> Diseño y <br> Contrucción</div>
-                  <div class="theme-five-header font-weight-thin text-xs-center">
+                  <div class="theme-five-header font-weight-light text-xs-center">
                     Sistema eléctrico de obras:<br>
                     <br>-Residenciales <br>
                     <br>-Habitacionales <br>
@@ -93,7 +94,7 @@
                   <div class="theme-five-subheader text-xs-center">
                     Desarrollo y puesta en marcha
                   </div>
-                  <div class="theme-five-header font-weight-thin text-xs-center">
+                  <div class="theme-five-header font-weight-light text-xs-center">
                       Plantas de generación de
                       <br>energía eléctrica.
                   </div>
@@ -107,7 +108,7 @@
                 </v-card-text>
                 <v-card-title primary-title>
                   <div class="theme-five-subheader text-xs-center"> Diseño y <br> Contrucción</div>
-                  <div class="theme-five-header font-weight-thin text-xs-center">
+                  <div class="theme-five-header font-weight-light text-xs-center">
                     Sistema eléctrico de edificios de oficinas.
                   </div>
                 </v-card-title>
@@ -120,7 +121,7 @@
                 </v-card-text>
                 <v-card-title primary-title>
                   <div class="theme-five-subheader text-xs-center"> Diseño y <br> Contrucción</div>
-                  <div class="theme-five-header font-weight-thin text-xs-center">
+                  <div class="theme-five-header font-weight-light text-xs-center">
                     Sistema eléctrico de obras: <br>
                     <br>-Comerciales e Industriales.
                     <br>-Supermercados.

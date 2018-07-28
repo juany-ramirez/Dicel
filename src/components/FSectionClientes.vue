@@ -11,23 +11,26 @@
     <v-carousel
       lazy
       elevation-0
+      flat
       delimiter-icon="flash_on">
-      <v-carousel-item class="text-lg-center" v-for="(item, index) in items" :key="index">
-        <v-container>
-          <v-content>
-          <span class="header-theme white--text mb-3">
-            {{item.title}}
-          </span>
-          <br>
-          <div class="container text-xs-center">
-            <v-chip v-for="(detail, ind) in item.details" :key="ind">
-              <v-avatar color="primary"></v-avatar>
-              {{detail.nombre}} -
-              <span class="chip-detail">{{detail.lugar}}</span>
-            </v-chip>
-          </div>
-          </v-content>
-        </v-container>
+      <v-carousel-item v-for="(item, index) in items" :key="index">
+        <div class="text-lg-center">
+          <v-container>
+            <v-content>
+              <span class="header-theme white--text mb-3">
+                {{item.title}}
+              </span>
+              <br>
+              <div class="container text-xs-center">
+                <v-chip v-for="(detail, ind) in item.details" :key="ind">
+                  <v-avatar color="primary"></v-avatar>
+                  {{detail.nombre}} -
+                  <span class="chip-detail">{{detail.lugar}}</span>
+                </v-chip>
+              </div>
+            </v-content>
+          </v-container>
+        </div>
       </v-carousel-item>
     </v-carousel>
   </div>
