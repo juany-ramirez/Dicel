@@ -2,7 +2,7 @@
   <div class="theme-one">
     <div class="box">
       <div class="bgimg-1">
-        <div class="caption">
+        <div class="caption text-sm-center">
           <span class="headline-theme">
             DICEL
           </span>
@@ -47,8 +47,7 @@ export default {
 }
 .caption {
   position: absolute;
-  left: 0;
-  top: 50%;
+  top: 40%;
   width: 100%;
   text-align: center;
   color: #000;

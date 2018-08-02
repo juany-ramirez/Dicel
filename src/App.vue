@@ -44,9 +44,8 @@
       </v-navigation-drawer>
       <v-toolbar app fixed clipped-left color="primary">
         <a >
-          <img src="./assets/dicelPro-02.png" height="56px;" width="38px;">
+          <img src=".\\assets\\dicel-original.png" height="60px;" width="150px;">
         </a>
-        <v-toolbar-title class="nav-title">DICEL</v-toolbar-title>
           <v-divider
             class="mx-3"
             inset

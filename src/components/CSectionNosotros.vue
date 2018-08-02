@@ -6,7 +6,7 @@
           wrap
           align-center
         >
-          <v-flex xs12 md4 offset-xs0 offset-md2>
+          <v-flex xs12 md4 offset-xs0 offset-md1>
             <v-content>
               <div>
                 <v-card class="elevation-0 transparent">
@@ -37,11 +37,8 @@
               </div>
             </v-content>
           </v-flex>
-          <v-flex xs12 md6>
-            <div class="box">
-              <div class="parallax">
-              </div>
-            </div>
+          <v-flex xs12 offset-md1 md5>
+            <img class="bg" src="../assets/dusk-electric.jpg" height="auto;" width="100%;">
           </v-flex>
         </v-layout>
     </section>
@@ -64,14 +61,25 @@ export default {
   width: auto;
 }
 
+img.bg{
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .box {
-  height: 100vh;
+  min-height: 100%;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: black;
 }
 
 .parallax {
-  background: url("../assets/analysis-blackboard.jpg");
-  min-height: 100%;
+  background-image: url("../assets/dusk-electric.jpg");
+  width: 100%;
+  height: auto;
   opacity: .85;
   background-position: center;
   background-repeat: no-repeat;
@@ -80,7 +88,9 @@ export default {
 
 
 .sobre-nosotros{
-  line-height: 2;
+  font-weight: 300;
+  line-height: 1.7;
+  font-size: 17px;
   color: #EDF0F2;
 }
 

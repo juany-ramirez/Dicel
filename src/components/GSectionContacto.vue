@@ -15,10 +15,10 @@
                   target="_blank"
                   novalidate>
                   <div id="mc_embed_signup_scroll">
-                    <h2>Subscribe to our mailing list</h2>
+                    <h2>Conéctate con Nosotros</h2>
                   <div class="indicates-required">
                     <span class="asterisk">*</span>
-                    indicates required
+                    indica obligatorio
                   </div>
                   <div class="mc-field-group">
                     <label for="mce-EMAIL">
@@ -58,7 +58,7 @@
                       <div class="clear">
                         <input
                         type="submit"
-                        value="Subscribe"
+                        value="Enviar Información"
                         name="subscribe"
                         id="mc-embedded-subscribe"
                         class="button">
@@ -89,7 +89,7 @@ export default {
   background-color: #C62828 important!;
 }
 #mc_embed_signup {
-  background: #101518;
+  background: #263238;
   color: white;
   clear: left;
   font: 14px Helvetica, Arial, sans-serif;
