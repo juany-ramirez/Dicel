@@ -70,7 +70,10 @@ export default {
 
 <style scoped>
 .content-group{
+  font-weight: 300;
+  line-height: 1.7;
+  font-size: 17px;
+  color: #EDF0F2;
   padding: 1.4em;
-  font-size: 1.1em;
 }
 </style>

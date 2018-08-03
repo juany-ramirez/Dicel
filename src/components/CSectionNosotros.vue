@@ -31,6 +31,7 @@
                         instalaciones eléctricas comerciales e industriales,
                         infraestructura y vivienda; con clientes
                         tanto en el sector público como en el sector privado.
+                        <br><br>
                     </div>
                   </v-card-text>
                 </v-card>
