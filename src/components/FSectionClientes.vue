@@ -12,23 +12,25 @@
     </div>
     <br><br><br>
     <v-carousel
+      id="carousel"
       lazy
       elevation-0
       delimiter-icon="flash_on">
       <v-carousel-item class="text-lg-center" v-for="(item, index) in items" :key="index">
         <v-container>
-          <v-content>
-          <span class="header-theme white--text mb-3">
-            {{item.title}}
-          </span>
-          <br>
-          <div class="container text-xs-center">
-            <v-chip v-for="(detail, ind) in item.details" :key="ind">
-              <v-avatar color="primary"></v-avatar>
-              {{detail.nombre}} -
-              <span class="chip-detail">{{detail.lugar}}</span>
-            </v-chip>
-          </div>
+          <v-content class="text-xs-center">
+            <a class="header-theme white--text mb-3">
+              {{item.title}}
+            </a>
+            <br>
+            <div class="container text-xs-center">
+              <v-chip v-for="(detail, ind) in item.details" :key="ind">
+                <v-avatar color="primary"></v-avatar>
+                {{detail.nombre}} -
+                <span class="chip-detail">{{detail.lugar}}</span>
+              </v-chip>
+            </div>
+            <br><br>
           </v-content>
         </v-container>
       </v-carousel-item>
@@ -263,5 +265,14 @@ span.header-theme{
 }
 .chip-detail{
   color: #90A4AE;
+}
+#carousel{
+  height:auto;
+  min-height: 80vh;
+}
+@media screen and (max-width: 400px) {
+    #carousel{
+      min-height: 95vh;
+    }
 }
 </style>

@@ -11,10 +11,10 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.3.1/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.1c9d10efb139339147ce1216c66284e1.js"
+  "/precache-manifest.ad59a4048460ea86db7a42df546ad1ab.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "dicel"});

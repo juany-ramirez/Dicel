@@ -43,7 +43,15 @@
             </v-content>
           </v-flex>
           <v-flex xs12 offset-md1 md5>
-            <img class="bg" src="../assets/dusk-electric.jpg" height="auto;" width="100%;">
+            <img
+            alt="dicel-img"
+            class="bg"
+            src="../assets/dusk-electric-1800C.jpg"
+            height="auto;"
+            srcset="../assets/dusk-electric-400C.jpg 400w,
+                    ../assets/dusk-electric-1000C.jpg 1000w,
+                    ../assets/dusk-electric-1800C.jpg 1800w"
+            width="100%;">
           </v-flex>
         </v-layout>
     </section>
@@ -70,27 +78,6 @@ img.bg{
   background-repeat: no-repeat;
   background-size: contain;
 }
-
-.box {
-  min-height: 100%;
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: black;
-}
-
-.parallax {
-  background-image: url("../assets/dusk-electric.jpg");
-  width: 100%;
-  height: auto;
-  opacity: .85;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 
 .sobre-nosotros{
   font-weight: 300;

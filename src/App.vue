@@ -1,7 +1,7 @@
 <template>
   <div id="webpage">
     <v-app color="secondary" dark id="inspire">
-      <v-navigation-drawer
+      <!-- <v-navigation-drawer
         clipped
         v-model="drawer"
         class="blue-grey lighten-2"
@@ -41,10 +41,10 @@
             </v-list-tile-content>
           </v-list-tile>
         </v-list>
-      </v-navigation-drawer>
+      </v-navigation-drawer>-->
       <v-toolbar app fixed clipped-left color="primary">
         <a >
-          <img src=".\\assets\\dicel-original.png" height="60px;" width="150px;">
+          <img alt="dicel-logo" src=".\\assets\\dicel-original.png" height="60px;" width="150px;">
         </a>
           <v-divider
             class="mx-3"
@@ -64,9 +64,8 @@
             <v-btn @click="$vuetify.goTo('GSectionContacto', { offset: -100 })" flat>
               Contáctanos
             </v-btn>
-            <v-divider vertical></v-divider>
           </v-toolbar-items>
-          <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+          <!-- <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon> -->
       </v-toolbar>
       <transition class="animated swing delay-5s" mode="out-in">
         <div v-if="!loader"><router-view></router-view></div>
@@ -95,7 +94,7 @@ export default {
   name: 'App',
   data() {
     return {
-      drawer: true,
+      drawer: false,
       loader: true,
     };
   },
@@ -108,11 +107,6 @@ export default {
 </script>
 
 <style>
-.logo{
-  background-image: url("./assets/dicelPro-02.png");
-  height: 38px;
-  width: 38px;
-}
 .theme-two{
   background-color: #90A4AE;
 }
@@ -135,6 +129,7 @@ export default {
   padding-left: 25vw;
   padding-right: 25vw;
 }
+
 .nav-title{
   font-size: 25px;
   letter-spacing: 5px;
@@ -159,6 +154,16 @@ export default {
   border-bottom: 10px solid #C62828;
   padding-bottom: 0.25em;
 }
+
+@media screen and (max-width: 400px) {
+    .headline-theme{
+      font-size:10vw;
+    }
+    .header-theme{
+      font-size:10vw;
+    }
+}
+
 .diagonal-divider-one {
   background:#EDF0F2;
   background: linear-gradient(to right bottom, #37474F 50%, #EDF0F2 50%);

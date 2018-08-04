@@ -16,7 +16,7 @@
             <v-flex xs12 sm6 md3>
               <v-card
                 data-aos="zoom-in-down"
-                data-aos-delay="1200"
+                data-aos-delay="300"
                 data-aos-once="true"
                 align-center flat color="transparent">
                 <v-card-text class="text-xs-center">
@@ -24,7 +24,7 @@
                 </v-card-text>
                 <v-card-title primary-title>
                   <div class="theme-five-subheader text-xs-center"> Diseño y Contrucción</div>
-                  <div class="theme-five-header font-weight-thin text-xs-center">
+                  <div class="theme-five-header font-weight-light text-xs-center">
                     Líneas de transmisión.
                   </div>
                 </v-card-title>
@@ -33,7 +33,7 @@
             <v-flex xs12 sm6 md3>
               <v-card
                 data-aos="zoom-in-down"
-                data-aos-delay="1200"
+                data-aos-delay="300"
                 data-aos-once="true"
                 align-center flat color="transparent">
                 <v-card-text class="text-xs-center">
@@ -41,7 +41,7 @@
                 </v-card-text>
                 <v-card-title primary-title>
                   <div class="theme-five-subheader text-xs-center"> Diseño y Contrucción</div>
-                  <div class="theme-five-header font-weight-thin text-xs-center">
+                  <div class="theme-five-header font-weight-light text-xs-center">
                     Redes primarias
                     <br>-Aéreas
                     <br>-Subterráneas
@@ -52,7 +52,7 @@
             <v-flex xs12 sm6 md3>
               <v-card
                 data-aos="zoom-in-down"
-                data-aos-delay="1200"
+                data-aos-delay="300"
                 data-aos-once="true"
                 align-center flat color="transparent">
                 <v-card-text class="text-xs-center">
@@ -60,7 +60,7 @@
                 </v-card-text>
                 <v-card-title primary-title>
                   <div class="theme-five-subheader text-xs-center"> Diseño y Contrucción</div>
-                  <div class="theme-five-header font-weight-thin text-xs-center">
+                  <div class="theme-five-header font-weight-light text-xs-center">
                     Sistema de generación de
                     <br>-Energía Solar
                   </div>
@@ -70,7 +70,7 @@
             <v-flex xs12 sm6 md3>
               <v-card
                 data-aos="zoom-in-down"
-                data-aos-delay="1200"
+                data-aos-delay="300"
                 data-aos-once="true"
                 align-center flat color="transparent">
                 <v-card-text class="text-xs-center">
@@ -78,7 +78,7 @@
                 </v-card-text>
                 <v-card-title primary-title>
                   <div class="theme-five-subheader text-xs-center">Contrucción</div>
-                  <div class="theme-five-header font-weight-thin text-xs-center">
+                  <div class="theme-five-header font-weight-light text-xs-center">
                     Obras civiles.
                   </div>
                 </v-card-title>
@@ -87,7 +87,7 @@
             <v-flex xs12 sm6 md3>
               <v-card
                 data-aos="zoom-in-down"
-                data-aos-delay="1200"
+                data-aos-delay="300"
                 data-aos-once="true"
                 align-center flat color="transparent">
                 <v-card-text class="text-xs-center">
@@ -95,7 +95,7 @@
                 </v-card-text>
                 <v-card-title primary-title>
                   <div class="theme-five-subheader text-xs-center"> Diseño y <br> Contrucción</div>
-                  <div class="theme-five-header font-weight-thin text-xs-center">
+                  <div class="theme-five-header font-weight-light text-xs-center">
                     Sistema eléctrico de obras:<br>
                     <br>-Residenciales <br>
                     <br>-Habitacionales <br>
@@ -107,7 +107,7 @@
             <v-flex xs12 sm6 md3>
               <v-card
                 data-aos="zoom-in-down"
-                data-aos-delay="1200"
+                data-aos-delay="300"
                 data-aos-once="true"
                 align-center flat color="transparent">
                 <v-card-text class="text-xs-center">
@@ -117,7 +117,7 @@
                   <div class="theme-five-subheader text-xs-center">
                     Desarrollo y puesta en marcha
                   </div>
-                  <div class="theme-five-header font-weight-thin text-xs-center">
+                  <div class="theme-five-header font-weight-light text-xs-center">
                       Plantas de generación de
                       <br>energía eléctrica.
                   </div>
@@ -127,7 +127,7 @@
             <v-flex xs12 sm6 md3>
               <v-card
                 data-aos="zoom-in-down"
-                data-aos-delay="1200"
+                data-aos-delay="300"
                 data-aos-once="true"
                 align-center flat color="transparent">
                 <v-card-text class="text-xs-center">
@@ -135,7 +135,7 @@
                 </v-card-text>
                 <v-card-title primary-title>
                   <div class="theme-five-subheader text-xs-center"> Diseño y <br> Contrucción</div>
-                  <div class="theme-five-header font-weight-thin text-xs-center">
+                  <div class="theme-five-header font-weight-light text-xs-center">
                     Sistema eléctrico de edificios de oficinas.
                   </div>
                 </v-card-title>
@@ -144,7 +144,7 @@
             <v-flex xs12 sm6 md3>
               <v-card
                 data-aos="zoom-in-down"
-                data-aos-delay="1200"
+                data-aos-delay="300"
                 data-aos-once="true"
                 align-center flat color="transparent">
                 <v-card-text class="text-xs-center">
@@ -152,7 +152,7 @@
                 </v-card-text>
                 <v-card-title primary-title>
                   <div class="theme-five-subheader text-xs-center"> Diseño y <br> Contrucción</div>
-                  <div class="theme-five-header font-weight-thin text-xs-center">
+                  <div class="theme-five-header font-weight-light text-xs-center">
                     Sistema eléctrico de obras: <br>
                     <br>-Comerciales e Industriales.
                     <br>-Supermercados.
@@ -188,7 +188,6 @@ div.theme-five-header{
   padding: 18px;
   letter-spacing: 4px;
   color: black;
-  width:100%;
 }
 .theme-five-subheader{
   letter-spacing: 4px;

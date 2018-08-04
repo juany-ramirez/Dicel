@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-image">
+  <div class="background-image">
     <section>
       <v-container>
         <v-layout row wrap>
@@ -17,7 +17,7 @@
                   class="validate"
                   target="_blank"
                   novalidate>
-                  <div id="mc_embed_signup_scroll">
+                  <div id="mc_embed_signup_scroll header-theme white--text">
                     <h2>Conéctate con Nosotros</h2>
                   <div class="indicates-required">
                     <span class="asterisk">*</span>
@@ -101,13 +101,26 @@ export default {
   opacity: 0.80;
   border-radius: 10px;
 }
-.bg-image {
-  background:url("../assets/beach-clouds.jpg") top right no-repeat;
+.background-image {
+  background:url("../assets/beach-clouds-1800C.jpg") top right no-repeat;
   background-attachment:fixed;
   background-size: cover;
 }
+
+@media screen and (max-width: 1000px) {
+    .background-image {
+        background-image: url("../assets/beach-clouds-1000C.jpg");
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .background-image {
+        background-image: url("../assets/beach-clouds-400C.jpg");
+    }
+}
+
 @media only screen and (max-device-width: 1024px) {
-  .bg-image {
+  .background-image {
     background-attachment: scroll;
   }
 }

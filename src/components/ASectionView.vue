@@ -1,7 +1,7 @@
 <template>
   <div class="theme-one">
     <div class="box">
-      <div class="bgimg-1">
+      <div class="background-image">
         <div
           class="caption text-sm-center">
           <span
@@ -35,8 +35,8 @@ export default {
 </script>
 
 <style scoped>
-.bgimg-1 {
-  background-image: url("../assets/architecture-building.jpg");
+.background-image {
+  background-image: url("../assets/architecture-building-1800C.jpg");
   min-height: 100%;
   opacity: .85;
   position: relative;
@@ -45,17 +45,41 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media screen and (max-width: 1000px) {
+    .background-image {
+        background-image: url("../assets/architecture-building-1000C.jpg");
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .background-image {
+        background-image: url("../assets/architecture-building-400C.jpg");
+    }
+    .slogan {
+      font-size: 20px;
+    }
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .background-image {
+    background-attachment: scroll;
+  }
+}
+
 .slogan {
   color: #fff;
   padding: 18px;
   font-size: 28px;
   letter-spacing: 10px;
 }
+
 @media only screen and (max-device-width: 1024px) {
   .slogan{
     font-size: 3vw;
   }
 }
+
 .caption {
   position: absolute;
   top: 40%;
@@ -63,13 +87,9 @@ export default {
   text-align: center;
   color: #000;
 }
+
 .box {
   height: 95vh;
-}
-@media only screen and (max-device-width: 1024px) {
-  .bgimg-1{
-    background-attachment: scroll;
-  }
 }
 
 </style>
