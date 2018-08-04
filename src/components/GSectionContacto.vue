@@ -8,6 +8,9 @@
               <!-- Begin MailChimp Signup Form -->
               <div id="mc_embed_signup">
                 <form
+                  data-aos="zoom-out"
+                  data-aos-delay="500"
+                  data-aos-once="true"
                   action="https://dicelhn.us18.list-manage.com/subscribe/post?u=8604a82a8053406718668b1bf&amp;id=1f416478e8"
                   method="post" id="mc-embedded-subscribe-form"
                   name="mc-embedded-subscribe-form"

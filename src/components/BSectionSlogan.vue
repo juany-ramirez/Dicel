@@ -9,6 +9,9 @@
         >
           <v-flex class="my-3" xs12 sm4>
             <div
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-once="true"
               class="text-md-center font-weight-thin subheader-theme">
               DICEL tiene una permanente actitud enfocada en el respeto y responsabilidad
               en cuanto a las demandas de nuestros clientes internos y externos.

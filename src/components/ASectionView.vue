@@ -2,11 +2,20 @@
   <div class="theme-one">
     <div class="box">
       <div class="bgimg-1">
-        <div class="caption text-sm-center">
-          <span class="headline-theme">
+        <div
+          class="caption text-sm-center">
+          <span
+          data-aos="zoom-out"
+          data-aos-delay="300"
+          data-aos-once="true"
+          class="headline-theme">
             DICEL
           </span>
-          <div class="slogan">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="600"
+            data-aos-once="true"
+            class="slogan">
             Diseños y Construcciones Eléctricas
           </div>
         </div>

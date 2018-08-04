@@ -1,13 +1,16 @@
 <template>
   <div class="theme-two">
-    <div class="text-xs-center">
+    <div
+      data-aos="zoom-out"
+      data-aos-delay="500"
+      data-aos-once="true"
+      class="text-xs-center">
       <div class="font-weight-thin subheader-theme">Algunos de nuestros</div><br>
       <span class="headline-theme white--text mb-3">
         Proyectos
       </span>
     </div>
     <br><br><br>
-    <div class=""></div>
     <v-carousel
       lazy
       elevation-0

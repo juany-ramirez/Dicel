@@ -18,7 +18,11 @@
                     </div>
                   </v-card-title>
                   <v-card-text>
-                    <div class="sobre-nosotros">
+                    <div
+                        data-aos="fade-up"
+                        data-aos-delay="500"
+                        data-aos-once="true"
+                        class="sobre-nosotros">
                         DICEL es una empresa de ingeniería de diseño y construcción en
                         la rama de ingeniería electromecánica, comprometidos con el
                         bienestar de nuestros clientes, personal y comunidad; para

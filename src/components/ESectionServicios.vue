@@ -14,7 +14,11 @@
         <v-container grid-list-md text-xs-center>
           <v-layout row wrap align-top justify-center>
             <v-flex xs12 sm6 md3>
-              <v-card align-center flat color="transparent">
+              <v-card
+                data-aos="zoom-in-down"
+                data-aos-delay="1200"
+                data-aos-once="true"
+                align-center flat color="transparent">
                 <v-card-text class="text-xs-center">
                   <v-icon x-large color="accent">wifi_tethering</v-icon>
                 </v-card-text>
@@ -27,7 +31,11 @@
               </v-card>
             </v-flex>
             <v-flex xs12 sm6 md3>
-              <v-card align-center flat color="transparent">
+              <v-card
+                data-aos="zoom-in-down"
+                data-aos-delay="1200"
+                data-aos-once="true"
+                align-center flat color="transparent">
                 <v-card-text class="text-xs-center">
                   <v-icon x-large color="accent">import_export</v-icon>
                 </v-card-text>
@@ -42,7 +50,11 @@
               </v-card>
             </v-flex>
             <v-flex xs12 sm6 md3>
-              <v-card align-center flat color="transparent">
+              <v-card
+                data-aos="zoom-in-down"
+                data-aos-delay="1200"
+                data-aos-once="true"
+                align-center flat color="transparent">
                 <v-card-text class="text-xs-center">
                   <v-icon x-large color="accent">wb_sunny</v-icon>
                 </v-card-text>
@@ -56,7 +68,11 @@
               </v-card>
             </v-flex>
             <v-flex xs12 sm6 md3>
-              <v-card align-center flat color="transparent">
+              <v-card
+                data-aos="zoom-in-down"
+                data-aos-delay="1200"
+                data-aos-once="true"
+                align-center flat color="transparent">
                 <v-card-text class="text-xs-center">
                   <v-icon x-large color="accent">account_balance</v-icon>
                 </v-card-text>
@@ -69,7 +85,11 @@
               </v-card>
             </v-flex>
             <v-flex xs12 sm6 md3>
-              <v-card align-center flat color="transparent">
+              <v-card
+                data-aos="zoom-in-down"
+                data-aos-delay="1200"
+                data-aos-once="true"
+                align-center flat color="transparent">
                 <v-card-text class="text-xs-center">
                   <v-icon x-large color="accent">home</v-icon>
                 </v-card-text>
@@ -85,7 +105,11 @@
               </v-card>
             </v-flex>
             <v-flex xs12 sm6 md3>
-              <v-card align-center flat color="transparent">
+              <v-card
+                data-aos="zoom-in-down"
+                data-aos-delay="1200"
+                data-aos-once="true"
+                align-center flat color="transparent">
                 <v-card-text class="text-xs-center">
                   <v-icon x-large color="accent">highlight</v-icon>
                 </v-card-text>
@@ -101,7 +125,11 @@
               </v-card>
             </v-flex>
             <v-flex xs12 sm6 md3>
-              <v-card align-center flat color="transparent">
+              <v-card
+                data-aos="zoom-in-down"
+                data-aos-delay="1200"
+                data-aos-once="true"
+                align-center flat color="transparent">
                 <v-card-text class="text-xs-center">
                   <v-icon x-large color="accent">location_city</v-icon>
                 </v-card-text>
@@ -114,7 +142,11 @@
               </v-card>
             </v-flex>
             <v-flex xs12 sm6 md3>
-              <v-card align-center flat color="transparent">
+              <v-card
+                data-aos="zoom-in-down"
+                data-aos-delay="1200"
+                data-aos-once="true"
+                align-center flat color="transparent">
                 <v-card-text class="text-xs-center">
                   <v-icon x-large color="accent">store_mall_directory</v-icon>
                 </v-card-text>
