@@ -8,7 +8,8 @@
           align-center
         >
           <v-flex class="my-3" xs12 sm4>
-            <div class="text-md-center font-weight-thin subheader-theme">
+            <div
+              class="text-md-center font-weight-thin subheader-theme">
               DICEL tiene una permanente actitud enfocada en el respeto y responsabilidad
               en cuanto a las demandas de nuestros clientes internos y externos.
               Innovamos para mejorar nuestro servicio.

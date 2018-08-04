@@ -6,7 +6,9 @@
           <span class="headline-theme">
             DICEL
           </span>
-          <div class="slogan">Diseños y Construcciones Eléctricas</div>
+          <div class="slogan">
+            Diseños y Construcciones Eléctricas
+          </div>
         </div>
       </div>
     </div>
@@ -14,12 +16,12 @@
 </template>
 
 <script>
-/* eslint-disable */
+
 export default {
-  name: "ASectionView",
+  name: 'ASectionView',
   props: {
-    id: String
-  }
+    id: String,
+  },
 };
 </script>
 

@@ -7,7 +7,7 @@
         class="blue-grey lighten-2"
         dark
         right
-        mobile-break-point800
+        mobile-break-point420
         app>
         <v-list dense>
           <v-list-tile>
@@ -53,11 +53,11 @@
           ></v-divider>
           <v-spacer></v-spacer>
           <v-toolbar-items>
-            <v-btn @click="$vuetify.goTo('#first', { offset: -100 })" flat>
+            <v-btn @click="$vuetify.goTo('#GSectionContacto', { offset: -100 })" flat>
               Nosotros
             </v-btn>
             <v-divider vertical></v-divider>
-            <v-btn flat>
+            <v-btn  @click="$vuetify.goTo('GSectionContacto', { offset: -100 })" flat>
               Servicios
             </v-btn>
             <v-divider vertical></v-divider>
@@ -68,7 +68,24 @@
           </v-toolbar-items>
           <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
       </v-toolbar>
-      <router-view></router-view>
+      <transition class="animated swing delay-5s" mode="out-in">
+        <div v-if="!loader"><router-view></router-view></div>
+        <div v-if="loader" class = "theme-three loader-background">
+          <v-card
+            color="primary"
+            dark
+          >
+            <v-card-text>
+              Cargando
+              <v-progress-linear
+                indeterminate
+                color="white"
+                class="mb-0"
+              ></v-progress-linear>
+            </v-card-text>
+          </v-card>
+        </div>
+      </transition>
     </v-app>
   </div>
 </template>
@@ -79,7 +96,11 @@ export default {
   data() {
     return {
       drawer: true,
+      loader: true,
     };
+  },
+  mounted() {
+    this.loader = false;
   },
   methods: {
   },
@@ -106,6 +127,13 @@ export default {
 }
 .theme-six{
   background-color: #C62828;
+}
+.loader-background{
+  height: 100vh;
+  width: 100vw;
+  padding-top: 50vh;
+  padding-left: 25vw;
+  padding-right: 25vw;
 }
 .nav-title{
   font-size: 25px;
@@ -141,6 +169,8 @@ export default {
   background: linear-gradient(to right bottom, #EDF0F2 50%, #90A4AE 50%);
   height: 20em;
 }
-
+.animated {
+    visibility: visible;
+}
 </style>
 
