@@ -1,50 +1,14 @@
 <template>
-  <div id="webpage">
+  <div ref="ap" id="webpage">
     <v-app color="secondary" dark id="inspire">
-      <!-- <v-navigation-drawer
-        clipped
-        v-model="drawer"
-        class="blue-grey lighten-2"
-        dark
-        right
-        mobile-break-point420
-        app>
-        <v-list dense>
-          <v-list-tile>
-            <v-list-tile-action>
-              <v-icon>dashboard</v-icon>
-            </v-list-tile-action>
-            <v-list-tile-content>
-              <v-list-tile-title>
-                <router-link class="white--text" to="/">Nosotros</router-link>
-              </v-list-tile-title>
-            </v-list-tile-content>
-          </v-list-tile>
-          <v-list-tile>
-            <v-list-tile-action>
-              <v-icon>settings</v-icon>
-            </v-list-tile-action>
-            <v-list-tile-content>
-              <v-list-tile-title >
-                <router-link class="white--text" to="/about">Servicios</router-link>
-              </v-list-tile-title>
-            </v-list-tile-content>
-          </v-list-tile>
-          <v-list-tile>
-            <v-list-tile-action>
-              <v-icon>email</v-icon>
-            </v-list-tile-action>
-            <v-list-tile-content>
-              <v-list-tile-title >
-                <router-link class="white--text" to="/about">Contáctanos</router-link>
-              </v-list-tile-title>
-            </v-list-tile-content>
-          </v-list-tile>
-        </v-list>
-      </v-navigation-drawer>-->
-      <v-toolbar app fixed clipped-left color="primary">
-        <a >
-          <img alt="dicel-logo" src=".\\assets\\dicel-original.png" height="60px;" width="150px;">
+      <v-toolbar class="nav-bar" app fixed clipped-left color="primary">
+        <a v-on:click="scroll(0)" >
+          <img
+            class="dicel-logo"
+            alt="dicel-logo"
+            src=".\\assets\\dicel-original.png"
+            height="64px;"
+            width="auto;">
         </a>
           <v-divider
             class="mx-3"
@@ -52,28 +16,26 @@
             vertical
           ></v-divider>
           <v-spacer></v-spacer>
-          <v-toolbar-items>
-            <v-btn @click="$vuetify.goTo('#GSectionContacto', { offset: -100 })" flat>
+          <v-toolbar-items class="hidden-sm-and-down">
+            <v-btn  v-on:click="scroll(2)" flat>
               Nosotros
             </v-btn>
             <v-divider vertical></v-divider>
-            <v-btn  @click="$vuetify.goTo('GSectionContacto', { offset: -100 })" flat>
+            <v-btn   @click="scroll(4)" flat>
               Servicios
             </v-btn>
             <v-divider vertical></v-divider>
-            <v-btn @click="$vuetify.goTo('GSectionContacto', { offset: -100 })" flat>
+            <v-btn  @click="scroll(6)" flat>
               Contáctanos
             </v-btn>
           </v-toolbar-items>
-          <!-- <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon> -->
       </v-toolbar>
       <transition class="animated swing delay-5s" mode="out-in">
         <div v-if="!loader"><router-view></router-view></div>
-        <div v-if="loader" class = "theme-three loader-background">
+        <div id="prueba" ref="prueba" v-if="loader" class = "prueba theme-three loader-background">
           <v-card
             color="primary"
-            dark
-          >
+            dark>
             <v-card-text>
               Cargando
               <v-progress-linear
@@ -96,12 +58,21 @@ export default {
     return {
       drawer: false,
       loader: true,
+      options: {
+        duration: 600,
+        offset: 20,
+        easing: 'easeInOutCubic',
+      },
     };
   },
   mounted() {
     this.loader = false;
   },
   methods: {
+    scroll(number) {
+      const target = this.$children[0].$children[1].$children[0].$children[number].$el.offsetTop;
+      this.$vuetify.goTo(target, this.options);
+    },
   },
 };
 </script>
@@ -129,10 +100,17 @@ export default {
   padding-left: 25vw;
   padding-right: 25vw;
 }
-
+.nav-bar{
+  height: 64px;
+}
 .nav-title{
   font-size: 25px;
   letter-spacing: 5px;
+}
+.dicel-logo{
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .headline-theme{
   color: #fff;

@@ -87,6 +87,7 @@
             <v-flex xs12 sm6 md3>
               <v-card
                 data-aos="zoom-in-down"
+                data-aos-offset="200"
                 data-aos-delay="300"
                 data-aos-once="true"
                 align-center flat color="transparent">
@@ -107,6 +108,7 @@
             <v-flex xs12 sm6 md3>
               <v-card
                 data-aos="zoom-in-down"
+                data-aos-offset="200"
                 data-aos-delay="300"
                 data-aos-once="true"
                 align-center flat color="transparent">
@@ -127,6 +129,7 @@
             <v-flex xs12 sm6 md3>
               <v-card
                 data-aos="zoom-in-down"
+                data-aos-offset="200"
                 data-aos-delay="300"
                 data-aos-once="true"
                 align-center flat color="transparent">
@@ -144,6 +147,7 @@
             <v-flex xs12 sm6 md3>
               <v-card
                 data-aos="zoom-in-down"
+                data-aos-offset="200"
                 data-aos-delay="300"
                 data-aos-once="true"
                 align-center flat color="transparent">

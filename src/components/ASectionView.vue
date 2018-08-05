@@ -52,15 +52,6 @@ export default {
     }
 }
 
-@media screen and (max-width: 400px) {
-    .background-image {
-        background-image: url("../assets/architecture-building-400C.jpg");
-    }
-    .slogan {
-      font-size: 20px;
-    }
-}
-
 @media only screen and (max-device-width: 1024px) {
   .background-image {
     background-attachment: scroll;
