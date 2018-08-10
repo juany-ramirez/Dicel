@@ -46,11 +46,10 @@
             <img
             alt="dicel-img"
             class="bg"
-            src="../assets/dusk-electric-1800C.jpg"
+            src="../assets/dusk-electric-1000C.jpg"
             height="auto;"
             srcset="../assets/dusk-electric-400C.jpg 400w,
-                    ../assets/dusk-electric-1000C.jpg 1000w,
-                    ../assets/dusk-electric-1800C.jpg 1800w"
+                    ../assets/dusk-electric-1000C.jpg 1000w"
             width="100%;">
           </v-flex>
         </v-layout>

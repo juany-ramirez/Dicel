@@ -10,7 +10,7 @@ Vue.config.productionTip = false;
 
 new Vue({
   created() {
-    AOS.init({ disable: 'phone' });
+    AOS.init({startEvent: 'load'});
   },
   router,
   render: h => h(App),
