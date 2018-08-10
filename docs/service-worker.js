@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.ad59a4048460ea86db7a42df546ad1ab.js"
+  "/precache-manifest.74bb536a4bab6f56bc64e732ba7b1835.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "dicel"});

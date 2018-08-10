@@ -46,6 +46,12 @@ export default {
   background-size: cover;
 }
 
+@media screen and (max-width: 400px) {
+    .slogan {
+      font-size: 8vw;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .background-image {
         background-image: url("../assets/architecture-building-1000C.jpg");
@@ -63,12 +69,6 @@ export default {
   padding: 18px;
   font-size: 28px;
   letter-spacing: 10px;
-}
-
-@media only screen and (max-device-width: 1024px) {
-  .slogan{
-    font-size: 3vw;
-  }
 }
 
 .caption {
