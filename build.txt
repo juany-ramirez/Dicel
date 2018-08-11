@@ -15,3 +15,8 @@ img
 
 service-worker
 	concat -> "/Dicel/"
+	Dentro del archivo:
+		import - > "./"
+
+precache
+	url -> "./"
