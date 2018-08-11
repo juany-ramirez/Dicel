@@ -10,8 +10,8 @@ background-image:url
 
 img
 	name -> "./"
-		dicel-original -> "./"
-		dusk-electric -> "./"
+		dicel-original -> "Dicel/"
+		dusk-electric -> "Dicel/"
 
 service-worker
 	concat -> "/Dicel/"
