@@ -1,8 +1,52 @@
 <template>
   <div ref="ap" id="webpage">
     <v-app color="secondary" dark id="inspire">
+      <v-navigation-drawer
+        v-model="drawer"
+        class="blue-grey lighten-2"
+        dark
+        right
+        disable-resize-watcher
+        temporary
+        floating
+        hide-overlay
+        mobile-break-point="400"
+        app>
+        <v-list dense>
+          <v-list-tile v-on:click="scroll(2)">
+            <v-list-tile-action>
+              <v-icon>dashboard</v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>
+              <v-list-tile-title>
+                Nosotros
+              </v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
+          <v-list-tile v-on:click="scroll(4)">
+            <v-list-tile-action>
+              <v-icon>settings</v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>
+              <v-list-tile-title >
+                Servicios
+              </v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
+          <v-list-tile v-on:click="scroll(6)">
+            <v-list-tile-action>
+              <v-icon>email</v-icon>
+            </v-list-tile-action>
+            <v-list-tile-content>
+              <v-list-tile-title >
+                Contáctanos
+              </v-list-tile-title>
+            </v-list-tile-content>
+          </v-list-tile>
+        </v-list>
+      </v-navigation-drawer>
       <v-toolbar class="nav-bar" app fixed clipped-left color="primary">
-        <a v-on:click="scroll(0)" >
+        <a class="logo" v-on:click="scroll(0)" >
           <img
             class="dicel-logo"
             alt="dicel-logo"
@@ -29,6 +73,8 @@
               Contáctanos
             </v-btn>
           </v-toolbar-items>
+          <v-toolbar-side-icon class="hidden-md-and-up" @click.stop="drawer = !drawer">
+          </v-toolbar-side-icon>
       </v-toolbar>
       <transition class="animated swing delay-5s" mode="out-in">
         <div v-if="!loader"><router-view></router-view></div>
@@ -70,8 +116,9 @@ export default {
   },
   methods: {
     scroll(number) {
-      const target = this.$children[0].$children[1].$children[0].$children[number].$el.offsetTop;
+      const target = this.$children[0].$children[2].$children[0].$children[number].$el.offsetTop;
       this.$vuetify.goTo(target, this.options);
+      this.drawer = false;
     },
   },
 };
@@ -132,7 +179,6 @@ export default {
   border-bottom: 10px solid #C62828;
   padding-bottom: 0.25em;
 }
-
 @media screen and (max-width: 400px) {
     .headline-theme{
       font-size:10vw;
@@ -141,7 +187,14 @@ export default {
       font-size:10vw;
     }
 }
-
+@media screen and (max-width: 900px) {
+    .logo img{
+      height: 54px;
+    }
+    .nav-bar{
+      height: 54px;
+    }
+}
 .diagonal-divider-one {
   background:#EDF0F2;
   background: linear-gradient(to right bottom, #37474F 50%, #EDF0F2 50%);

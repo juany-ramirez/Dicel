@@ -37,4 +37,10 @@ export default {
 </script>
 
 <style scoped>
+@media screen and (max-width: 400px) {
+    .subheader-theme{
+      font-size:5vw;
+      letter-spacing: 5px;
+    }
+}
 </style>

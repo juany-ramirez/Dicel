@@ -1,0 +1,17 @@
+index
+	href -> "./"
+	*excepto el cdn y y el de fonts
+	src-> "./"
+
+background-image:url
+	name -> "/Dicel/"	
+		beach-clouds -> "/Dicel/"
+		architecture-building -> "/Dicel/"
+
+img
+	name -> "./"
+		dicel-original -> "./"
+		dusk-electric -> "./"
+
+service-worker
+	concat -> "/Dicel/"

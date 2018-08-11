@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "./img/beach-clouds-1800C.39253313.jpg"
   },
   {
-    "revision": "4497edfa6305459e494a1073ea6037e0",
+    "revision": "fc189af1e60d0d0f7e3b9d21688d3b44",
     "url": "./index.html"
   },
   {
-    "revision": "76809fc6d09211133921",
-    "url": "./js/app.76809fc6.js"
+    "revision": "b283cee037bfab1ce539",
+    "url": "./js/app.b283cee0.js"
   },
   {
     "revision": "ce523e6bc06bb9e35ff0",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "./css/chunk-vendors.289bd350.css"
   },
   {
-    "revision": "76809fc6d09211133921",
-    "url": "./css/app.5eec7b54.css"
+    "revision": "b283cee037bfab1ce539",
+    "url": "./css/app.44449b18.css"
   }
 ];

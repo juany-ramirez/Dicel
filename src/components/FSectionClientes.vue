@@ -24,7 +24,7 @@
             </a>
             <br>
             <div class="container text-xs-center">
-              <v-chip v-for="(detail, ind) in item.details" :key="ind">
+              <v-chip class="chip-content" v-for="(detail, ind) in item.details" :key="ind">
                 <v-avatar color="primary"></v-avatar>
                 {{detail.nombre}} -
                 <span class="chip-detail">{{detail.lugar}}</span>
@@ -264,7 +264,7 @@ span.header-theme{
   color: #263238;
 }
 .chip-detail{
-  color: #90A4AE;
+  color: #C62828;
 }
 #carousel{
   height:auto;
@@ -273,6 +273,12 @@ span.header-theme{
 @media screen and (max-width: 400px) {
     #carousel{
       min-height: 95vh;
+    }
+    .chip-content{
+      font-size: 10px;
+    }
+    .header-theme{
+      line-height: 2;
     }
 }
 </style>
