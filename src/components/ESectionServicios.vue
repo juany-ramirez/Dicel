@@ -15,6 +15,7 @@
           <v-layout row wrap align-top justify-center>
             <v-flex xs12 sm6 md3>
               <v-card
+                class="card-content"
                 data-aos="zoom-in-down"
                 data-aos-delay="300"
                 data-aos-once="true"
@@ -32,6 +33,7 @@
             </v-flex>
             <v-flex xs12 sm6 md3>
               <v-card
+                class="card-content"
                 data-aos="zoom-in-down"
                 data-aos-delay="300"
                 data-aos-once="true"
@@ -51,6 +53,7 @@
             </v-flex>
             <v-flex xs12 sm6 md3>
               <v-card
+                class="card-content"
                 data-aos="zoom-in-down"
                 data-aos-delay="300"
                 data-aos-once="true"
@@ -69,6 +72,7 @@
             </v-flex>
             <v-flex xs12 sm6 md3>
               <v-card
+                class="card-content"
                 data-aos="zoom-in-down"
                 data-aos-delay="300"
                 data-aos-once="true"
@@ -86,6 +90,7 @@
             </v-flex>
             <v-flex xs12 sm6 md3>
               <v-card
+                class="card-content"
                 data-aos="zoom-in-down"
                 data-aos-offset="200"
                 data-aos-delay="300"
@@ -107,6 +112,7 @@
             </v-flex>
             <v-flex xs12 sm6 md3>
               <v-card
+                class="card-content"
                 data-aos="zoom-in-down"
                 data-aos-offset="200"
                 data-aos-delay="300"
@@ -128,6 +134,7 @@
             </v-flex>
             <v-flex xs12 sm6 md3>
               <v-card
+                class="card-content"
                 data-aos="zoom-in-down"
                 data-aos-offset="200"
                 data-aos-delay="300"
@@ -146,6 +153,7 @@
             </v-flex>
             <v-flex xs12 sm6 md3>
               <v-card
+                class="card-content"
                 data-aos="zoom-in-down"
                 data-aos-offset="200"
                 data-aos-delay="300"
@@ -199,5 +207,11 @@ div.theme-five-header{
   color: #263238;
   border-bottom: 2px solid #C62828;
   width:100%;
+}
+@media screen and (max-width: 400px) {
+    .card-content{
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
 }
 </style>

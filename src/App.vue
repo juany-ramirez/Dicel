@@ -195,6 +195,17 @@ export default {
       height: 54px;
     }
 }
+@media only screen and (min-width : 1824px) {
+  .content-group{
+    font-size: 22px;
+  }
+  .sobre-nosotros{
+    font-size: 22px;
+  }
+  .caption {
+    top: 50%;
+  }
+}
 .diagonal-divider-one {
   background:#EDF0F2;
   background: linear-gradient(to right bottom, #37474F 50%, #EDF0F2 50%);

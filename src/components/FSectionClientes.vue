@@ -27,7 +27,7 @@
               <v-chip class="chip-content" v-for="(detail, ind) in item.details" :key="ind">
                 <v-avatar color="primary"></v-avatar>
                 {{detail.nombre}} -
-                <span class="chip-detail">{{detail.lugar}}</span>
+                <span class="chip-detail hidden-sm-and-down">{{detail.lugar}}</span>
               </v-chip>
             </div>
             <br><br>
